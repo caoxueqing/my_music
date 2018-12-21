@@ -90,7 +90,7 @@ export default {
             this.scroll = new BScroll(this.$refs.wrapper,{
                 probeType: this.probeType,
                 click: this.click,
-                scrollX: this.scrollX
+                
             })
             // 是否派发滚动事件
             if (this.listenScroll) {
